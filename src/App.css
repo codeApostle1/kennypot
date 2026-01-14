@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+
+.nav-links li:hover {
+    color: white; /* Accent color on hover */
+
+    background-color: #FF5722;
+
+}
+
+.nav-links li {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+
+}
