@@ -21,12 +21,12 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="fixed w-full bg-black/80 backdrop-blur z-50">
+    <nav className="fixed w-full bg-white/80 shadow-lg backdrop-blur z-50">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-accent">Kenny’s Pot</h1>
+        <h1 className="text-2xl font-bold text-red-600">Kenny’s Pot</h1>
 
           <button
-        className="menu-btn md:hidden text-white cursor-pointer focus:outline-none"
+        className="menu-btn md:hidden text-red-600 cursor-pointer focus:outline-none"
         onClick={handleToggle}
         aria-expanded={open}
         aria-label="Toggle menu"
@@ -36,7 +36,7 @@ const Navbar = () => {
       </button> 
 
         {/* <ul className={`hidden md:flex gap-8 nav-links ${open ? "open" : ""}` }> */}
-          <ul className={`${open ? "nav-links flex text-lg font-medium; flex-col absolute top-16 left-0 w-full bg-white/80 md:bg-transparent md:flex md:static px-5 py-5 md:w-auto" : "hidden md:flex  "} md:gap-8 md:text-white  nav-links`}>
+          <ul className={`${open ? "nav-links flex text-lg font-medium; flex-col absolute top-16 left-0 w-full bg-white/80 md:bg-transparent md:flex md:static px-5 py-5 md:w-auto" : "hidden md:flex  "} md:gap-8 md:text-black  nav-links`}>
  
   <li className="hover:text-white transition cursor-pointer"><NavLink to="/" onClick={handleLinkClick}>Home</NavLink></li>
   <li className="hover:text-accent transition cursor-pointer"><NavLink to="/menu" onClick={handleLinkClick}>Menu</NavLink></li>

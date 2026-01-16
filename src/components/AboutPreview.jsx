@@ -19,20 +19,21 @@ const AboutPreview = () => {
         {/* Carousel */}
         <div className="mt-12 relative overflow-hidden ">
           <div className="flex gap-8 animate-scroll whitespace-nowrap">
+
             {/* Duplicate cards for infinite effect */}
-            <AboutCard />
-            <AboutCard />
-            <AboutCard />
-            <AboutCard />
+                        <AboutCard />
+                        <AboutCard />
+                        <AboutCard />
+                        <AboutCard />
 
-            <AboutCard />
-            <AboutCard />
-            <AboutCard />
-            <AboutCard />
-          </div>
-        </div>
+                        <AboutCard />
+                        <AboutCard />
+                        <AboutCard />
+                        <AboutCard />
+                      </div>
+                    </div>
 
-        {/* Button */}
+                    {/* Button */}
         <button className="mt-12 px-8 py-3 bg-blue-800 text-white rounded hover:bg-blue-900 transition">
           Learn More
         </button>

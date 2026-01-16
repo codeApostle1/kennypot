@@ -1,5 +1,21 @@
 @import "tailwindcss";
 
+@theme {
+  /* Define a CSS variable for the animation properties */
+  --animate-scroll: scroll 10s linear infinite;
+
+  /* Define the actual keyframes for the animation */
+  @keyframes scroll {
+    0% {
+      
+      transform: translateX(0);
+    }
+    100% {
+     
+      transform: translateX(-50%);
+    }
+  }
+}
 
 
 .nav-links li:hover {

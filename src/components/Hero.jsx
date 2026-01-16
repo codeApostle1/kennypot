@@ -7,7 +7,7 @@ export default function Hero() {
       <div
         className="
           h-[70vh]
-          bg-[url('assets/rice.jpg')]
+          bg-[url('assets/hero.jpg')]
           bg-cover
           bg-center
           rounded-t-[50px]

@@ -3,6 +3,8 @@ import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import AboutPreview from '../components/AboutPreview'
+import FeaturedMenu from '../components/FeaturedMenu'
+import Services from '../components/Services'
 
 const Home = () => {
   return (
@@ -21,7 +23,9 @@ const Home = () => {
       </section>
 
             <Hero  /> 
+            <FeaturedMenu />
             <AboutPreview />
+            <Services />
             </div>
          </main>
        
