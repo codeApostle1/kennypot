@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import header from '../assets/hero.jpg'
+import header from '../assets/kennylogo.png'
 
 import { FaAddressCard, FaFacebook, FaInstagram, FaTiktok } from 'react-icons/fa'
 import { MdLocationOn } from "react-icons/md"
@@ -18,7 +18,7 @@ const Footer = () => {
       <div className="relative max-w-7xl mx-auto px-6 py-20">
 
         {/* Logo */}
-        <img src={header} alt="Kenny’s Pot Logo" className="h-12 mb-10 mx-auto lg:mx-0" />
+        <img src={header} alt="Kenny’s Pot Logo" className="h-40 mb-10 mx-auto lg:mx-0" />
 
         {/* Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">

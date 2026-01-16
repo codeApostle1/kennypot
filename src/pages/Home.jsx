@@ -5,6 +5,7 @@ import Footer from '../components/Footer'
 import AboutPreview from '../components/AboutPreview'
 import FeaturedMenu from '../components/FeaturedMenu'
 import Services from '../components/Services'
+import logo from '../assets/kennylogo.png'
 
 const Home = () => {
   return (
@@ -17,9 +18,10 @@ const Home = () => {
 
       <section className="pt-10 pb-5 text-center">
         <p className="text-gray-500 italic">Welcome to</p>
-        <h1 className="text-4xl md:text-5xl font-bold text-red-600">
-          Kenny’s Pot
-        </h1>
+        <img src={logo} className="w-55 h-auto mx-auto md:w-40 lg:w-48" />
+
+          
+        
       </section>
 
             <Hero  /> 
